@@ -1,19 +1,19 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import LittleLemonHeader from './components/LittleLemonHeader';
-import LittleLemonFooter from './components/LittleLemonFooter';
+import FeastNestHeader from './components/FeastNestHeader';
+import FeastNestFooter from './components/FeastNestFooter';
 import MenuItems from './components/MenuItems';
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
-        <LittleLemonHeader />
+        <FeastNestHeader />
         <MenuItems />
       </View>
       <View style={styles.footerContainer}>
-        <LittleLemonFooter />
+        <FeastNestFooter />
       </View>
     </>
   );
