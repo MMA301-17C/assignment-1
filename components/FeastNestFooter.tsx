@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function LittleLemonFooter() {
+export default function FeastNestFooter() {
   return (
     <View style={styles.container}>
       <Text style={styles.footerText}>
-        All rights reserved by Little Lemon, 2022{' '}
+        Copy rights by Feast Nest, 2024{' '}
       </Text>
     </View>
   );
@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   footerText: {
+    padding: 5,
     fontSize: 18,
     color: 'black',
     textAlign: 'center',
