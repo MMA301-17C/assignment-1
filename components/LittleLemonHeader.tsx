@@ -1,12 +1,10 @@
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function FeastNestFooter() {
+export default function LittleLemonHeader() {
   return (
     <View style={styles.container}>
-      <Text style={styles.footerText}>
-        Copy rights by Feast Nest, 2024{' '}
-      </Text>
+      <Text style={styles.headerText}>Little Lemon</Text>
     </View>
   );
 }
@@ -14,13 +12,11 @@ export default function FeastNestFooter() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#EE9972',
-    marginBottom: 20,
   },
-  footerText: {
-    padding: 5,
-    fontSize: 18,
+  headerText: {
+    padding: 20,
+    fontSize: 30,
     color: 'black',
     textAlign: 'center',
-    fontStyle: 'italic',
   },
 });
